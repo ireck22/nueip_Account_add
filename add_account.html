@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>新增使用者帳號</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="./js/data.js"></script>
+    <link rel=stylesheet type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <div id="top">
+        <span>使用者資料</span>
+    </div>
+
+    <div id="main">
+        <!-- 表单 -->
+        <form class="form-horizontal" name="user">
+
+            <div class="form-group">
+                <div class="col-sm-10 area">
+                    <label for="inputEmail3" class="col-sm-2 control-label">邮箱:</label>
+                    <input type="email" class="" placeholder="请输入邮箱" name="email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <label for="inputPassword3" class="col-sm-2 control-label">密码:</label>
+                    <input type="password" class="" id="inputPassword3" name="pass" placeholder="请输入密码">
+                </div>
+            </div>
+            <!-- id="inputPassword3" -->
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" onclick ="setAction()" class="btn btn-default">登录</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
