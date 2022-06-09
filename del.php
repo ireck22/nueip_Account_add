@@ -4,7 +4,7 @@
     // file_put_contents("t1.txt",print_r($data,true).PHP_EOL,FILE_APPEND);
 
     // $sql = "insert into test"; //在test資料表中選擇所有欄位
-    $sql = "delete from users where id=$id;";
+    $sql = "delete from account_info where id=$id;";
     // file_put_contents("t1.txt",print_r($sql,true).PHP_EOL,FILE_APPEND);
     
     try{
@@ -16,5 +16,3 @@
     }
     
     $connection->close();
-
-    echo 1;

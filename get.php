@@ -2,7 +2,7 @@
     require_once('conn.php');
     // $data=$_POST['data2'];
 
-    $sql = "select * from users";
+    $sql = "select * from account_info";
     // file_put_contents("t1.txt",print_r($sql,true).PHP_EOL,FILE_APPEND);
     
     try{
