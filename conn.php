@@ -12,10 +12,3 @@ $connection = new mysqli($server, $dbuser, $dbpassword, $dbname);
 if ($connection->connect_error) {
     die("連線失敗：" . $connection->connect_error);
 }
-
-// $link=mysqli_connect("localhost","sa","abc123") or die ("無法開啟Mysql資料庫連結"); 
-// function add($list)
-// {
-    // $sql = "insert into(account,name,sex,email,remark)
-    //     values({$list['account']},{$list['account']});";
-// }
